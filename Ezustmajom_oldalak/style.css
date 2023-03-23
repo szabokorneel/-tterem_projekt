@@ -5,3 +5,19 @@ body {
    background-size: cover;
    background-repeat: repeat;
   }
+
+.cstumecarusel {
+    margin-bottom: 5%;
+}
+.card{
+    margin-bottom: 2%;
+}
+
+.footercstm{
+    margin-top: 1%;
+    border-top: solid black 2px
+}
+
+.buttoncstm{
+    margin-top: 3%;
+}
