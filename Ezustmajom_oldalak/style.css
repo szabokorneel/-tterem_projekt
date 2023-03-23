@@ -1,4 +1,4 @@
-body {
+body{
     color: black;
    background-image: url(/kepek/hatter_jo.jpg);
    background-position: center;
@@ -20,4 +20,8 @@ body {
 
 .buttoncstm{
     margin-top: 3%;
+}
+
+.video{
+    width: 100%;
 }

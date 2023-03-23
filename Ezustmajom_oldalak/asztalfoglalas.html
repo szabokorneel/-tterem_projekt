@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container" style="margin-bottom: 3%;">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light text-light">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light text-light">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 
@@ -35,17 +35,42 @@
                 </ul>
               </div>
             </div>
-
           </nav>
         </div>
 
-     
-      
+        <div class="">
+          <video class="video" autoplay muted loop id="">
+            <source src="/kepek/stockvid.webm" type="video/mp4">
+          </video>
+        </div>
+         
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <form action="/action_page.php">
+                <label for="fname">Vezetéknév:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br><br>
+                <label for="lname">Keresztnév:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <label for="email">E-mail:</label><br>
+                <input type="text" id="email" name="email" value=""><br><br>
+                <label for="telo">Telefonszám:</label><br>
+                <input type="text" id="telo" name="telo" value=""><br><br>
+                <label for="idopont">Időpont:</label><br>
+                <input type="text" id="idopont" name="idopont" value=""><br><br>
+                <label for="vendegek">Vendégek száma:</label><br>
+                <input type="text" id="vendegek" name="vendegek" value=""><br><br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+        
       
       
      
      <div class="text-center" style="margin-bottom: 5px;"><button type="button" value="tetejére"><a href="#top" style="color: black;">Vissza a tetejére</a></button></div>
-     <footer class="bg-light text-center text-lg-start" style="border-top: solid black 2px">
+     <footer class="bg-light text-center text-lg-start footercstm">
        <div class="text-center p-3 bg-light">
         ©2023 Copyright Ezüstmajom Étterem
        </div>
