@@ -25,3 +25,14 @@ body{
 .video{
     width: 100%;
 }
+
+.submit {
+    width: 20%;
+    margin-left: 42%;
+    margin-bottom: 5%;
+}
+
+.visszagomb{
+    text-decoration: none;
+    text-align: center;
+}

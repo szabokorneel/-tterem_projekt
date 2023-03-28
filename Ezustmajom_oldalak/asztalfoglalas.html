@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="/Ezustmajom_oldalak/style.css">
     <meta charset="UTF-8">
@@ -40,13 +41,13 @@
 
         <div class="">
           <video class="video" autoplay muted loop id="">
-            <source src="/kepek/stockvid.webm" type="video/mp4">
+            <source src="/kepek/stock2.mp4" type="video/mp4">
           </video>
         </div>
          
         <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
+          <div  class="urlap row">
+            <div data-aos="slide-right" class="col-lg-6 text-center">
               <form action="/action_page.php">
                 <label for="fname">Vezetéknév:</label><br>
                 <input type="text" id="fname" name="fname" value=""><br><br>
@@ -54,14 +55,19 @@
                 <input type="text" id="lname" name="lname" value=""><br><br>
                 <label for="email">E-mail:</label><br>
                 <input type="text" id="email" name="email" value=""><br><br>
-                <label for="telo">Telefonszám:</label><br>
-                <input type="text" id="telo" name="telo" value=""><br><br>
-                <label for="idopont">Időpont:</label><br>
-                <input type="text" id="idopont" name="idopont" value=""><br><br>
-                <label for="vendegek">Vendégek száma:</label><br>
-                <input type="text" id="vendegek" name="vendegek" value=""><br><br>
-                <input type="submit" value="Submit">
-              </form>
+              </div>
+              <div data-aos="slide-left" class="col-lg-6 text-center">
+                  <label for="telo">Telefonszám:</label><br>
+                  <input type="text" id="telo" name="telo" value=""><br><br>
+                  <label for="idopont">Időpont:</label><br>
+                  <input type="text" id="idopont" name="idopont" value=""><br><br>
+                  <label for="vendegek">Vendégek száma:</label><br>
+                  <input type="text" id="vendegek" name="vendegek" value=""><br><br>
+                </div>
+              <div class="row text-center">
+                <input class="submit" type="submit" value="Foglalás">
+              </div>
+                </form>
             </div>
           </div>
         </div>
@@ -69,14 +75,17 @@
       
       
      
-     <div class="text-center" style="margin-bottom: 5px;"><button type="button" value="tetejére"><a href="#top" style="color: black;">Vissza a tetejére</a></button></div>
+     <div class="text-center visszagomb"><button type="button" value="tetejére"><a href="#top" style="color: black;">Vissza a tetejére</a></button></div>
      <footer class="bg-light text-center text-lg-start footercstm">
        <div class="text-center p-3 bg-light">
         ©2023 Copyright Ezüstmajom Étterem
        </div>
      </footer>
      
-     
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
