@@ -16,8 +16,9 @@ body{
 }
 
 .footercstm{
-    margin-top: 1%;
+    margin-top: 2%;
     border-top: solid black 2px
+    
 }
 
 .buttoncstm{
@@ -64,4 +65,18 @@ body{
     
 }
 
+.visszaetlap{
+    margin-top: 200px;
+}
 
+.stockvids{
+    margin-top: 3%;
+}
+
+.rizsa{
+    margin-top: 10%;
+}
+
+.cimek{
+    margin-top: 80px;
+}
