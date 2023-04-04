@@ -91,3 +91,9 @@ body{
 .table tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+.submit{
+    margin-left: 41%;
+}
+
+
